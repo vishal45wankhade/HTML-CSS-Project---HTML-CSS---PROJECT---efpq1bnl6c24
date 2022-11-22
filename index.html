@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verify Account UI</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="App.js" defer></script>
+    
 </head>
 <body>
-    
-</body>
-</html>
 
-<div class="screen-wrapper">
+  <div class="screen-wrapper">
     <div class="otp-container">
       <h3>Verify Your Account</h3>
       <p>
@@ -23,17 +22,54 @@
 
       <div class="inputs-container">
         <input
+          id="zero"
+          data-number="0"
           class="otp-input"
           type="text"
           placeholder="0"
           maxlength="1"
           autofocus
         />
-        <input class="otp-input" type="text" placeholder="0" maxlength="1" />
-        <input class="otp-input" type="text" placeholder="0" maxlength="1" />
-        <input class="otp-input" type="text" placeholder="0" maxlength="1" />
-        <input class="otp-input" type="text" placeholder="0" maxlength="1" />
-        <input class="otp-input" type="text" placeholder="0" maxlength="1" />
+        <input
+          id="one"
+          data-number="1"
+          class="otp-input"
+          type="text"
+          placeholder="0"
+          maxlength="1"
+        />
+        <input
+          id="two"
+          data-number="2"
+          class="otp-input"
+          type="text"
+          placeholder="0"
+          maxlength="1"
+        />
+        <input
+          id="three"
+          data-number="3"
+          class="otp-input"
+          type="text"
+          placeholder="0"
+          maxlength="1"
+        />
+        <input
+          id="four"
+          data-number="4"
+          class="otp-input"
+          type="text"
+          placeholder="0"
+          maxlength="1"
+        />
+        <input
+          id="five"
+          data-number="5"
+          class="otp-input"
+          type="text"
+          placeholder="0"
+          maxlength="1"
+        />
       </div>
 
       <div class="foot-note">
@@ -42,3 +78,6 @@
       </div>
     </div>
   </div>
+</body>
+</html>
+
